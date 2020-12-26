@@ -1,1 +1,1 @@
-docker build -t ml/python-image:latest .
+docker build -t serart/python-basic-image:latest .
