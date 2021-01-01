@@ -5,7 +5,7 @@ RUN apt-get update && \
 
 RUN python -m venv venv
 
-RUN venv/bin/python -m pip install --upgrade pip
+RUN /usr/local/bin/python -m pip install --upgrade pip
 
 RUN useradd -m user -u 1000 && \
     echo 'user:user' | chpasswd user && \
